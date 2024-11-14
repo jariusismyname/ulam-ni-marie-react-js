@@ -39,11 +39,11 @@ function App() {
 
     return (
         <div className="App">
-            {!isLoggedIn ? (
+            {/* {!isLoggedIn ? (
                 <Login onLogin={handleLogin} />
-            ) : (
+            ) : ( */}
                 <ViandsList />
-            )}
+            {/* )} */}
         </div>
     );
 }
